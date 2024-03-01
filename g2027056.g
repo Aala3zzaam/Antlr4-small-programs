@@ -14,7 +14,7 @@ ifelse	:  IF '(' (ID|FLOAT|NUM) IFOP (ID|FLOAT|NUM) ')' '{' (if*|ifelse*|decl)'}
 //ifmul 	:   IF '(' (ID|FLOAT|NUM) IFOP (FLOAT|ID|NUM) ')' '{' decl '}';
 EQUAL   : '=';
 CHAR 	:'+'|'-'|'*'|'/';
-IFOP    : '<'|'>'|'='|;
+IFOP    : '<'|'>'|'==';
 IF 	: 'if';
 INT     :'int';
 DOUBLE	:'double';
